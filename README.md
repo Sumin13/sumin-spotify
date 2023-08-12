@@ -1,3 +1,0 @@
-# Sumin - Spotify - Practice
-
-practice
