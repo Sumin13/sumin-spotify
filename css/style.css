@@ -17,19 +17,18 @@ body {
 }
 
 .top-bit__main {
-  margin: 0 55px;
+  margin: 0 15px;
 }
 
 .top-bit__main span {
   color: white;
   display: flex;
-  margin: 0 15px;
 }
 .top-bit__main img {
   width: 226px;
   height: 226px;
   position: relative;
-  right: -62px;
+  right: -50px;
   top: -10px;
 }
 
