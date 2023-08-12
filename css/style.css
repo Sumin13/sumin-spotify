@@ -9,17 +9,99 @@ body {
   display: flex;
   margin: 15px 25px;
   justify-content: space-between;
+  color: white;
+  padding-bottom: 25px;
 }
 .status-bar__emo i {
   padding: 0 5px;
 }
 
-.top-bit {
-  margin: 0 15px;
+.top-bit__main {
+  margin: 0 55px;
 }
 
+.top-bit__main span {
+  color: white;
+  display: flex;
+  margin: 0 15px;
+}
 .top-bit__main img {
   width: 226px;
   height: 226px;
+  position: relative;
+  right: -62px;
+  top: -10px;
+}
+
+.top-bit__title {
+  font-size: 18px;
+  font-weight: 600;
   display: flex;
+  color: white;
+  margin-bottom: 5px;
+  margin: 0 15px;
+}
+
+.top-bit__small img {
+  margin: 0 15px;
+  width: 15px;
+  height: 15px;
+  border-radius: 7.5px;
+  margin-top: 5px;
+}
+
+.top-bit__small span {
+  font-size: 13px;
+  color: white;
+  position: relative;
+  top: -3px;
+}
+
+.top-bit__exp {
+  opacity: 0.5;
+  font-size: 13px;
+  margin: 0 13px;
+}
+
+.top-bit__emo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-bit__exp i {
+  font-size: 7px;
+}
+.top-bit__emo i {
+  padding: 10px 12px;
+  color: #1bd760;
+}
+
+.song-title {
+  margin: 0 13px;
+}
+
+.song-title__mine {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.song-title__mine span {
+  color: white;
+}
+
+.song-title__mine i {
+  opacity: 0.5;
+  padding: 3px 0px;
+}
+.song-mine i {
+  color: #1bd760;
+  font-size: 12px;
+}
+
+.song-mine span {
+  color: white;
+  font-size: 12px;
+  opacity: 0.5;
 }
