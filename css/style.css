@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #422e20;
+  width: 375px;
+  height: 812px;
+}
+.status-bar {
+  display: flex;
+  margin: 15px 25px;
+  justify-content: space-between;
+}
+.status-bar__emo i {
+  padding: 0 5px;
+}
+
+.top-bit {
+  margin: 0 15px;
+}
+
+.top-bit__main img {
+  width: 226px;
+  height: 226px;
+  display: flex;
+}
